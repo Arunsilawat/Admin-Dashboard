@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "employeeno": "3",
+      "name": "Radha kurrey",
+      "city": "Bhopal",
+      "salary": "900000",
+      "id": "fe5e"
+    },
+    {
+      "employeeno": "3",
+      "name": "Rohan",
+      "city": "Mandideep",
+      "salary": "890988",
+      "id": "6992"
+    },
+    {
+      "employeeno": "4",
+      "name": "Ritu",
+      "city": "Pipariya",
+      "salary": "3000000",
+      "id": "2b5e"
+    },
+    {
+      "employeeno": "5",
+      "name": "Payal",
+      "city": "Sobhapur",
+      "salary": "43000",
+      "id": "6aa9"
+    }
+  ]
+}

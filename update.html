@@ -1,0 +1,133 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./update.css">
+    <style>  
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0px;
+          background-color: #f4f4f9;
+        }
+  
+        table {
+          width:   100%;
+          margin: 40px;
+          border-collapse: collapse;
+          margin-bottom: 20px;
+          background-color: #fff;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        table th,
+        table td {
+          padding: 3px;
+          text-align: left;
+        }
+        table th {
+          background-color: rgb(123, 134, 140);
+          color: #ffffff;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+        }
+  
+        table tr {
+          border-bottom: 1px solid #dddddd;
+        }
+  
+        table tr:nth-of-type(even) {
+          background-color: #f3f3f3;
+        }
+  
+        table tr:last-of-type {
+          border-bottom: 2px solid #009879;
+        }
+  
+        table tr:hover {
+          background-color: #f1f1f1;
+        }
+  
+        input[type="text"] {
+          width: 90%;
+          padding: 8px;
+          box-sizing: border-box;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          transition: all 0.3s ease;
+        }
+  
+        input[type="text"]:focus {
+          border-color: #009879;
+          outline: none;
+        }
+  
+        .button {
+          border: none;
+          padding: 10px 15px;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 14px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+        }
+  
+        .button-edit {
+          background-color: #4caf50; /* Green */
+        }
+  
+        .button-save {
+          background-color: #008cba; /* Blue */
+          display: none;
+        }
+  
+        .button-delete {
+          background-color: #f44336; /* Red */
+        }
+      </style> 
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <h2>Dashboard</h2>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./insert.html">Add Employee</a></li>
+                <li><a href="./displaydata.html">Displat Data</a></li>
+                <li><a href="./update.html">Update Data</a></li>
+                <li><a href="#">Employee</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Add </a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </aside>
+        <main class="main-content">
+            <!-- ---------------------------------------- nav --------------------------------------->
+            <header>
+                <div class="profile">
+                    <img src="./Remini20210412072717658.jpg" alt="Profile Image">
+                    <span class="username">Arun Silawat</span>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-bell"></i>
+                    <i class="fas fa-cog"></i>
+                    <i class="fas fa-sign-out-alt"></i>
+                </div>
+            </header><br>
+            <!-- ------------------------------------------------------------------------------------ -->
+            <div id="demo"></div>
+        </main>
+    </div>
+    <script src="JS/update.js"> </script>
+</body>
+</html>
